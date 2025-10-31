@@ -1,2 +1,7 @@
 BIN/
-recon/*.strings*
+recon/fast3890v3.strings
+doc/.obsidian
+doc/.trash
+pyenv
+ghidra
+extracted
