@@ -1,32 +1,23 @@
-DECIMAL       HEXADECIMAL     DESCRIPTION
---------------------------------------------------------------------------------
-20036         0x4E44          SHA256 hash constants, big endian
-631354        0x9A23A         StuffIt Deluxe (data): TDF
-707523        0xACBC3         TROC filesystem, 1431327744 file entries
-728964        0xB1F84         CRC32 polynomial table, big endian
-825552        0xC98D0         SHA256 hash constants, big endian
-839798        0xCD076         mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
-1378936       0x150A78        PARity archive data - file number 8290
-1515638       0x172076        mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
-17166336      0x105F000       Linux kernel ARM boot executable zImage (big-endian)
-20545136      0x1397E70       Cisco IOS experimental microcode, for ""
-23789568      0x16B0000       Linux kernel ARM boot executable zImage (big-endian)
-87331654      0x5349346       eCos RTOS string reference: "ecos.mped.su/"
-87362502      0x5350BC6       eCos RTOS string reference: "ecos.mped.su/"
-87411131      0x535C9BB       Unix path: /sys/-gols/gnolsygn-gnoc.u/
-98618338      0x5E0CBE2       Microsoft executable, MS-DOS
-98653164      0x5E153EC       CRC32 polynomial table, little endian
-109917525     0x68D3555       MySQL MISAM index file Version 6
-111228345     0x6A135B9       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
-128987258     0x7B0307A       Minix filesystem, V1, big endian, 19363 zones
-152504378     0x917083A       Minix filesystem, V1, little endian, 19363 zones
-178318334     0xAA0EBFE       MySQL MISAM index file Version 2
-186593982     0xB1F32BE       eCos RTOS string reference: "ecos.mped.su/"
-186618022     0xB1F90A6       eCos RTOS string reference: "ecos.mped.su/"
-186660467     0xB203673       Unix path: /sys/-gols/gnolsygn-gnoc.u/
-194696996     0xB9AD724       CRC32 polynomial table, little endian
-201966933     0xC09C555       MySQL MISAM index file Version 6
-209344522     0xC7A580A       bix header, header size: 64 bytes, header CRC: 0x2080000, created: 1973-04-05 23:15:12, image size: 1114112 bytes, Data Address: 0x5D0000, Entry Point: 0x85880000, data CRC: 0x2990000, OS: SVR4, compression type: none, image name: ""
-209477282     0xC7C5EA2       bix header, header size: 64 bytes, header CRC: 0x9510000, created: 1974-04-25 12:54:24, image size: 1376256 bytes, Data Address: 0x9C0001, Entry Point: 0x8CD80000, data CRC: 0x8290000, OS: Solaris, compression type: none, image name: ""
-209723145     0xC801F09       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DECIMAL                            HEXADECIMAL                        DESCRIPTION
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+19460                              0x4C04                             SHA256 hash constants, little endian
+30281                              0x7649                             Zlib compressed file, total size: 10 bytes
+657087                             0xA06BF                            AES S-Box
+657343                             0xA07BF                            AES S-Box
+667885                             0xA30ED                            Copyright text: "Copyright (C) %d Broadcom Limited "
+706884                             0xAC944                            CRC32 polynomial table, little endian
+800592                             0xC3750                            SHA256 hash constants, little endian
+803888                             0xC4430                            Device tree blob (DTB), version: 17, CPU ID: 0, total size: 16088 bytes
+1459248                            0x164430                           Device tree blob (DTB), version: 17, CPU ID: 0, total size: 16088 bytes
+2490368                            0x260000                           gzip compressed data, operating system: Unix, timestamp: 2021-05-24 10:44:02, total size: 68490 bytes
+2752512                            0x2A0000                           gzip compressed data, operating system: Unix, timestamp: 2020-12-22 19:14:11, total size: 92415 bytes
+3014656                            0x2E0000                           UBI image, version: 1, image size: 131727360 bytes
+134742016                          0x8080000                          UBI image, version: 1, image size: 59506688 bytes
+194248704                          0xB940000                          UBI image, version: 1, image size: 19529728 bytes
+213778432                          0xCBE0000                          UBI image, version: 1, image size: 9961472 bytes
+223739904                          0xD560000                          UBI image, version: 1, image size: 34603008 bytes
+258342912                          0xF660000                          UBI image, version: 1, image size: 7077888 bytes
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Analyzed 1 file for 85 file signatures (196 magic patterns) in 223.0 milliseconds
