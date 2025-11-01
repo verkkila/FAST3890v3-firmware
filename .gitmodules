@@ -1,0 +1,3 @@
+[submodule "tools/brcm-nand-bch"]
+	path = tools/brcm-nand-bch
+	url = https://github.com/StrayLightning/brcm-nand-bch
