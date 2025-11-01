@@ -16,4 +16,7 @@ In the image below the calculated ECC for each sector is printed out.
 ![](img_calculated_ecc.png)  
 The stored ECC (first image) matches the calculated ECC (second image) which confirms the validity of the BCH params. We can now run decode for the dumped image:  
 ![](img_decode_results.png)  
+After all bit errors have been corrected the spare area can be removed from the dump using tools/strip_oob.py  
+Finally the endianness of the file needs to be swapped (tools/swap_endianness.sh) since the dump file is Big-endian and the file is being examined in a Kali VM (Little-endian).
 
+TODO: Check if the original, ECC'd file can be mounted/emulated/examined without removing the spare area and switching endianness.
